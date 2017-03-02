@@ -1,25 +1,108 @@
 <!DOCTYPE html>
 <html>
-
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
-
 <style>
-h1,h2,h3,h4,h5,h6 {font-family: "Times New Roman"}
-body {font-family: "Times New Roman"}
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+}
 </style>
+<body>
 
-  <header class="w3-container w3-center w3-padding-48 w3-white">
-    <h1 class="w3-xxxlarge"><b>Smoking Tobacco Use</b></h1>
-    <h6>Pennsylvania</h6>
-  </header>
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding-8 w3-card-2">
+    <a href="#home" class="w3-bar-item w3-button w3-margin-left">Smoking</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#The Start" class="w3-bar-item w3-button">The Start</a>
+      <a href="#Graph" class="w3-bar-item w3-button">Graph</a>
+      <a href="#Statement" class="w3-bar-item w3-button">Statement</a>
+      <a href="#Sources" class="w3-bar-item w3-button">Sources</a>
+    </div>
+  </div>
+</div>
 
-		
-        <div class="w3-justify">
-          <img src="http://viewpoints.iu.edu/health-and-vitality/files/2016/01/quit-smoking.jpg"  style="width:100%" class="w3-padding-100">
-          <p><strong>SMOKING!</strong> I first did this project looking for corralations with Alleghney County blah blah balh, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor
-            magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sedtellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-          
-          <img src="https://github.com/Crunchytoastmmm/Smoking-Use-PA/blob/master/Smoking.png">
-  <h5>Sources</h5>
-  <h6> Sources</h6)
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+  <img class="w3-image" src="http://img05.deviantart.net/97ad/i/2010/138/8/8/smoke_stock_7_by_hatestock.jpg" width="1600" height="800">
+  <div class="w3-display-bottomleft w3-padding-xlarge w3-opacity">
+    <h1 class="w3-xxlarge">Tobbaco Smoke</h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:1100px">
+
+
+
+  <!-- Opening Section -->
+  <div class="w3-row w3-padding-64" id="The Start">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="http://viewpoints.iu.edu/health-and-vitality/files/2016/01/quit-smoking.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center">A Decade of Tobacco Smoke</h1><br>
+      <p class="w3-large">When I first started this project I was not sure exactly what I wanted to do.  I knew I wanted to explore and represent something related to public health but I could not put my nose on it.  For  a couple days I tried to narrow down what I wanted to choose for this project.</p>
+      <p class="w3-large">Then while standing at the bus stop, ‘it’ hit me.  I was the lucky lad to be downstream of a translucent killer that the person to my left graciously bequeathed to me, and many others while taking a long drag and blowing out.  The ‘it’ was cigarette smoke and the ‘hitting’ part was more of a cough.  My lungs squeezed forcibly expelling the burned byproduct of a cigarette.  Right then I realized, I will look into data about cigarette usage.
+ </p>
+ 		<p class="w3-large">
+    </div>
+  </div>
+  
+  <hr>
+   <!-- Statement Section -->
+  <div class="w3-row w3-padding-64" id="Graph">
+    <div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-center">Graph</h1><br>
+      <img src="/Smoking-Use-PA/Smoking.png">
+  
+  <!-- Statement Section -->
+  <div class="w3-row w3-padding-64" id="Statement">
+    <div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-center">Let Me Tell you</h1><br>
+      <p class=“w3-large>  Using the {CDC} data website I was able to compile a list of data from 2005-2015.  With creating a line graph using data of people who smoke every day and former smokers, I wanted to see how this matches up with smoking tobacco use.  It is an encouraging inverse correlation to see as tobacco use declined former smokers increased.  This is a good thing, for a decline in both tobacco use and former smokers, would lead to the assumption that people were never transitioning to the category of ‘Former Smoker’, one could assume they have passed.</p>
+       
+       <p class=“w3-large>As you see in the graph there is a sudden shift in the lines around 2011.  This was due to a possible shifting of demographics that took the CDC survey.  Before 2011 the CDC would conduct their surveys exclusively through landline phones, but in 2011 people were able to fill out the surveys either from a landline phone or a cell phone.  This has caused a noticeable shift in all of the CDC’s data even outside tobacco usage.  I was surprised to see such a sudden increase the percentage of tobacco use in the year 2011, but the historical trend of decreased tobacco usage continued from the new high.</p>
+ 		
+        <p class="w3-large">I am glad I looked into this available data because I was able to really explore my own methods of data collection and it was of interest to see how just adding a method to complete a survey changed results, but still equated the same trend over the years.</p>
+    </div>
+    
+    <div class="w3-col l6 w3-padding-large">
+      <img src="/w3images/tablesetting.jpg" class="w3-round w3-image w3-opacity-min" alt="Menu" width="500" height="750">
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Sources Section -->
+  <div class="w3-container w3-padding-64" id="Sources">
+    <h1>Sources</h1><br>
+    <p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</p>
+    <p class="w3-text-blue-grey w3-large"><b>Catering Service, 42nd Living St, 43043 New York, NY</b></p>
+    <p>You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="number" placeholder="How many people" required name="People"></p>
+      <p><input class="w3-input w3-padding-16" type="datetime-local" placeholder="Date and time" required name="date" value="2017-11-16T20:00"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+      <p><button class="w3-button w3-section" type="submit">SEND MESSAGE</button></p>
+    </form>
+  </div>
+  
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-32">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+</body>
 </html>
+
